@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drowsiness Detection</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+
+<h1>Drowsiness Detection System</h1>
+
+<button id="startBtn">Start Camera</button>
+<button id="stopAlarmBtn">Stop Alarm</button>
+
+<br>
+
+<video id="video" autoplay playsinline></video>
+
+<div id="status" class="safe">Driver Status: Waiting...</div>
+
+<audio id="alarmSound" loop>
+    <source src="https://www.soundjay.com/misc/sounds/alarm-clock-01.mp3" type="audio/mpeg">
+</audio>
+
+
+<script src="../static/script.js"></script>
+
+</body>
+</html>
